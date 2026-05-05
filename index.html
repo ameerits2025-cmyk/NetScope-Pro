@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetScope Pro | Advanced IP Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>NetScope Pro – Advanced Network Intelligence Tool</h1>
+        <p>Advanced IP & Subnet Analyzer</p>
+    </header>
+
+    <section class="tool-card">
+
+        <h2>IP Analyzer</h2>
+
+        <div class="input-group">
+            <input type="text" id="ipInput" placeholder="192.168.1.1/24">
+            <button onclick="analyzeIP()">Analyze</button>
+            <button onclick="resetTool()">Reset</button>
+        </div>
+
+        <div id="results" class="results-area"></div>
+
+        <h3>History</h3>
+        <div id="history" class="history"></div>
+
+    </section>
+
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
